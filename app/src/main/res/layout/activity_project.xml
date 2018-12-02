@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7pt"
+                    android:layout_marginRight="7pt"
+                    android:text="@string/project_disc"
+                    android:textColor="@color/colorText"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7pt"
+                    android:layout_marginRight="7pt"
+                    android:text="@string/project_about"
+                    android:textColor="@color/colorText"
+                    android:textSize="8pt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7pt"
+                    android:layout_marginRight="7pt"
+                    android:text="@string/project2"
+                    android:textColor="@color/colorText"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7pt"
+                    android:layout_marginRight="7pt"
+                    android:text="@string/project3"
+                    android:textColor="@color/colorText"
+                    android:textSize="8pt" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="65pt"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/project1" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="65pt"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-6pt"
+                    app:srcCompat="@drawable/project2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/project_title"
+                    android:textColor="@color/colorText"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7pt"
+                    android:layout_marginRight="7pt"
+                    android:text="@string/project"
+                    android:textColor="@color/colorText"
+                    android:textSize="8pt" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7pt"
+                    android:layout_marginRight="7pt"
+                    android:text="@string/project4"
+                    android:textColor="@color/colorText"
+                    android:textSize="8pt" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="165pt"
+                    app:srcCompat="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/site_link"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2pt"
+                        android:layout_marginBottom="5pt"
+                        android:gravity="center_horizontal"
+                        android:text="@string/site_link"
+                        android:textColor="@color/colorText"
+                        android:textSize="10pt" />
+            </LinearLayout>
+
+
+        </android.support.design.widget.AppBarLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
